@@ -12,6 +12,9 @@ to:
 
 [The original paper](https://ieeexplore.ieee.org/document/1410007/authors) claims that this modification improves the model with high dimensionality data. 
 
+# TODO
+Implement the calibration phase.
+
 (Original GSOM code from https://github.com/alexhunziker/GrowingSOM)
 
 References:
