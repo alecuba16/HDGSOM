@@ -17,10 +17,12 @@ Improves the GSOM by:
 [The original paper](https://ieeexplore.ieee.org/document/1410007/authors) claims that this modification improves the model with high dimensionality data. 
 
 # TODO
-Implement the calibration phase.
+
+* Implement the calibration phase described in the paper.
+* openMP Parallelization C code.
 
 # Original code
-Original GSOM code from https://github.com/alexhunziker/GrowingSOM) Thanks alex!
+Original GSOM code from https://github.com/alexhunziker/GrowingSOM Thanks alex!
 
 # References
 * __Damminda Alahakoon, Saman K. Halgamuge (2000)__: Dynamic Self-Organizing Maps with Controlled Growth for Knowledge Discovery. IEEE TRANSACTIONS ON NEURAL NETWORKS, VOL. 11.
