@@ -1,14 +1,14 @@
 importFrom("stats", "runif", "sd")
 import("graphics")
 
-export(train.gsom)
-export(train_xy.gsom)
-export(map.gsom)
-export(predict.gsom)
+export(train.hdgsom)
+export(train_xy.hdgsom)
+export(map.hdgsom)
+export(predict.hdgsom)
 
-useDynLib(HDGSOM)
+useDynLib(hdgsom)
 
-S3method(plot, gsom)
-S3method(print, gsom)
-S3method(summary, gsom)
-S3method(predict, gsom)
+S3method(plot, hdgsom)
+S3method(print, hdgsom)
+S3method(summary, hdgsom)
+S3method(predict, hdgsom)

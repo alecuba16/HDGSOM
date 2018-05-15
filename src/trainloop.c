@@ -1,7 +1,15 @@
 ////////////////////////////////////////
-//trainloop.c - GrowingSOM
+//trainloop.c - HDGSOM
 //Alex Hunziker - 2017
+//Alejandro Blanco Martinez - 2018 (contribution)
 ////////////////////////////////////////
+
+
+//////////////////////////////////////
+/////         TODO:              /////
+////    HD GSOM INITIALIZATION   /////
+////    Parallelization!         /////
+//////////////////////////////////////
 
 #include <R.h>
 #include <unistd.h>
@@ -214,7 +222,7 @@ void som_train_loop(double *df, double *codes, double *distnd, Sint *prep, Sint 
 						//If true, generate new node on this position. If not skip to next possible position.
 						if(tmp == 0){
 
-							//Adjust number of nodes of GSOM
+							//Adjust number of nodes of HDGSOM
 							lennd++;
 
 							//Init values for new node.

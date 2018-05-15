@@ -1,6 +1,7 @@
 ////////////////////////////////////////
-//map.c - GrowingSOM
+//map.c - HDGSOM
 //Alex Hunziker - 2017
+//Alejandro Blanco Martinez - 2018 (contribution)
 ////////////////////////////////////////
 
 #include <R.h>

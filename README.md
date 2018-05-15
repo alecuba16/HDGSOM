@@ -1,4 +1,4 @@
-# HDGSOM
+# hdgsom
 Implementation of High Dimensional Growing Self Organizing Maps in R
 
 

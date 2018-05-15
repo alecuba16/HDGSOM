@@ -1,4 +1,4 @@
-Package: HDGSOM
+Package: hdgsom
 Type: Package
 Title: High Dimensionality Growing Self-Organizing Maps
 Version: 0.1.2
