@@ -5,19 +5,20 @@ Implementation of High Dimensional Growing Self Organizing Maps in R
 Improves the GSOM by modify the GT calculation from:
 
 <img src="https://latex.codecogs.com/gif.latex?GT=-D&space;\:&space;x&space;\:&space;ln(SF)" title="GT=-D \: x \: ln(SF)" />
+
 to:
+
 <img src="https://latex.codecogs.com/gif.latex?GT=-ln(D)&space;\:&space;x&space;\:&space;ln(SF)" title="GT=-ln(D) \: x \: ln(SF)" />
 
 [The original paper](https://ieeexplore.ieee.org/document/1410007/authors) claims that this modification improves the model with high dimensionality data. 
 
 (Original GSOM code from https://github.com/alexhunziker/GrowingSOM)
 
-Mainly based on:
-__Damminda Alahakoon, Saman K. Halgamuge (2000)__: Dynamic Self-Organizing Maps with Controlled Growth for Knowledge Discovery. IEEE TRANSACTIONS ON NEURAL NETWORKS, VOL. 11.
+References:
+* __Damminda Alahakoon, Saman K. Halgamuge (2000)__: Dynamic Self-Organizing Maps with Controlled Growth for Knowledge Discovery. IEEE TRANSACTIONS ON NEURAL NETWORKS, VOL. 11.
 
-And
 
-__R. Amarasiri, D. Alahakoon, K.A. Smith__: HDGSOM: a modified growing self-organizing map for high dimensional data clustering. Hybrid Intelligent Systems, 2004. HIS '04. Fourth International Conference on, 2004, pp. 216-221.
+* __R. Amarasiri, D. Alahakoon, K.A. Smith__: HDGSOM: a modified growing self-organizing map for high dimensional data clustering. Hybrid Intelligent Systems, 2004. HIS '04. Fourth International Conference on, 2004, pp. 216-221.
 doi: 10.1109/ICHIS.2004.52
 
 ## Functionality
