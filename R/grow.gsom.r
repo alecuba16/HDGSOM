@@ -89,7 +89,7 @@ grow.gsom <- function(gsom_model, df, repet, spreadFactor, alpha, beta, gridsize
             plentr = as.integer(lentr), #Max num of iterations
             hex = as.integer(hex),
             grow = as.integer(grow),
-            PACKAGE = "GrowingSOM"
+            PACKAGE = "HDGSOM"
   )
   
 	# Process results from C
