@@ -1,6 +1,9 @@
 # HDGSOM
 Implementation of High Dimensional Growing Self Organizing Maps in R
 
+
+Improves the GSOM by modify the GT calculation from GT=-D x ln(SF) to: GT=-ln(D) x ln(SF). [The original paper](https://ieeexplore.ieee.org/document/1410007/authors) claims that this modification improves the model with high dimensionality data. 
+
 (Original GSOM code from https://github.com/alexhunziker/GrowingSOM)
 
 Mainly based on:
