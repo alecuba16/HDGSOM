@@ -102,7 +102,7 @@ grow_xy.gsom <- function(y, df, repet, spreadFactor, alpha, beta, gridsize, nhoo
             leny = as.integer(nrow(y)),
             pydim = as.integer(ncol(y)),
             predict = as.double(predict),
-            PACKAGE = "GrowingSOM"
+            PACKAGE = "HDGSOM"
   )
   
 	# Process Results from C loop
