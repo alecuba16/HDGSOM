@@ -1,8 +1,13 @@
-# GrowingSOM
-Implementation of Growing Self Organizing Maps in R
+# HDGSOM
+Implementation of High Dimensional Growing Self Organizing Maps in R
+
+(Original GSOM code from https://github.com/alexhunziker/GrowingSOM)
 
 Mainly based on:
 __Damminda Alahakoon, Saman K. Halgamuge (2000)__: Dynamic Self-Organizing Maps with Controlled Growth for Knowledge Discovery. IEEE TRANSACTIONS ON NEURAL NETWORKS, VOL. 11.
+And
+__Damminda Alahakoon, Saman K. Halgamuge (2000)__: HDGSOM: a modified growing self-organizing map for high dimensional data clustering. Hybrid Intelligent Systems, 2004. HIS '04. Fourth International Conference on, 2004, pp. 216-221.
+doi: 10.1109/ICHIS.2004.52
 
 ## Functionality
 
