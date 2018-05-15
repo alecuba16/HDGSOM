@@ -1,25 +1,25 @@
-\name{GrowingSOM}
-\alias{GSOM}
-\alias{GrowingSelfOrganizingMap}
+\name{HDGSOM}
+\alias{HDGSOM}
+\alias{HighDimensionalityGrowingSelfOrganizingMap}
 \docType{package}
 \title{
-\packageTitle{GrowingSOM}
+\packageTitle{HDGSOM}
 }
 \description{
-  \packageDescription{GrowingSOM}
+  \packageDescription{HDGSOM}
 }
 \details{
 
-  The GSOM was developed to address the issue of identifying a suitable map size in the SOM.\cr\cr
+  The HDGSOM was developed to address the issue of identifying a suitable map size in the SOM.\cr\cr
     It starts with a minimal number of nodes and grows new nodes on the boundary based on a heuristic. By using the value called Spread Factor (SF), the growth of the GSOM can be controlled.\cr\cr
     This R-Package supports both a supervised and an unsupervised version of Growing Self-Organizing maps.\cr
     Maps can be trained, new data can be mapped to existing maps and in the case of supervised GSOM maps, the dependant values can be predicted.
-  \packageIndices{GrowingSOM}
+  \packageIndices{HDGSOM}
 }
 \author{
-  Package Author: \packageAuthor{GrowingSOM}
+  Package Author: \packageAuthor{HDGSOM}
 
-  Maintainer: \packageMaintainer{GrowingSOM}
+  Maintainer: \packageMaintainer{HDGSOM}
 }
 \references{
   This package is conceptually mostly based on the version of Growing Self-Organizing Maps as described in this paper: \cr
@@ -29,7 +29,7 @@
 \keyword{ growing }
 \keyword{ self-organizing }
 \keyword{ Map }
-\keyword{ GrowingSOM }
+\keyword{ HDGSOM }
 \keyword{ GSOM }
 %%\seealso{
 %%    Non-growing Self-Organizing maps:\cr
