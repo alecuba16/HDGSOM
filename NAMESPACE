@@ -6,7 +6,7 @@ export(train_xy.gsom)
 export(map.gsom)
 export(predict.gsom)
 
-useDynLib(GrowingSOM)
+useDynLib(HDGSOM)
 
 S3method(plot, gsom)
 S3method(print, gsom)
