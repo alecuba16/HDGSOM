@@ -15,9 +15,10 @@ to:
 # TODO
 Implement the calibration phase.
 
-(Original GSOM code from https://github.com/alexhunziker/GrowingSOM)
+# Original code
+Original GSOM code from https://github.com/alexhunziker/GrowingSOM)
 
-References:
+# References
 * __Damminda Alahakoon, Saman K. Halgamuge (2000)__: Dynamic Self-Organizing Maps with Controlled Growth for Knowledge Discovery. IEEE TRANSACTIONS ON NEURAL NETWORKS, VOL. 11.
 
 
