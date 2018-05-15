@@ -31,7 +31,7 @@ predict.gsom <- function(object, df, retaindata=FALSE, ...){
             bmn = as.double(bmn),
             ndist = as.double(ndist),
             freq = as.double(freq),
-            PACKAGE = "GrowingSOM"
+            PACKAGE = "HDGSOM"
   )
   
   dist <- outc$ndist
