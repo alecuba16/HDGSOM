@@ -2,13 +2,17 @@
 Implementation of High Dimensional Growing Self Organizing Maps in R
 
 
-Improves the GSOM by modify the GT calculation from:
+Improves the GSOM by:
 
-<img src="https://latex.codecogs.com/gif.latex?GT=-D&space;\:&space;x&space;\:&space;ln(SF)" title="GT=-D \: x \: ln(SF)" />
+* New initialization method
 
-to:
+* modify the GT calculation from:
 
-<img src="https://latex.codecogs.com/gif.latex?GT=-ln(D)&space;\:&space;x&space;\:&space;ln(SF)" title="GT=-ln(D) \: x \: ln(SF)" />
+	<img src="https://latex.codecogs.com/gif.latex?GT=-D&space;\:&space;x&space;\:&space;ln(SF)" title="GT=-D \: x \: ln(SF)" />
+
+	to:
+
+	<img src="https://latex.codecogs.com/gif.latex?GT=-ln(D)&space;\:&space;x&space;\:&space;ln(SF)" title="GT=-ln(D) \: x \: ln(SF)" />
 
 [The original paper](https://ieeexplore.ieee.org/document/1410007/authors) claims that this modification improves the model with high dimensionality data. 
 
@@ -16,7 +20,7 @@ to:
 Implement the calibration phase.
 
 # Original code
-Original GSOM code from https://github.com/alexhunziker/GrowingSOM)
+Original GSOM code from https://github.com/alexhunziker/GrowingSOM) Thanks alex!
 
 # References
 * __Damminda Alahakoon, Saman K. Halgamuge (2000)__: Dynamic Self-Organizing Maps with Controlled Growth for Knowledge Discovery. IEEE TRANSACTIONS ON NEURAL NETWORKS, VOL. 11.
@@ -27,37 +31,47 @@ doi: 10.1109/ICHIS.2004.52
 
 ## Functionality
 
-- train.gsom()
-- train_xy.gsom()
-- map.gsom()
-- predict.gsom()
-- summary.gsom()
-- print.gsom()
-- plot.gsom()
+- train.hdgsom()
+- train_xy.hdgsom()
+- map.hdgsom()
+- predict.hdgsom()
+- summary.hdgsom()
+- print.hdgsom()
+- plot.hdgsom()
 
 ## Installation
+
+### With R devtools
+
+```R
+install('devtools')
+library('devtools')
+install_github('alecuba16/HDGSOM')
+```
+
+### Building manually:
 
 Make a R Package out of the folder gsom_pkg using the command:
 
 ```bash
-	R CMD build gsom-pkg
+	R CMD build hdgsom-pkg
 ```
 
 Windows may need a binary Package which can be obtained by:
 
 ```bash
 	mkdir temp_location
-	R CMD INSTALL --build -l temp_location GrowingSOM_VERSION.tar.gz
+	R CMD INSTALL --build -l temp_location HDGSOM_0.1.2.tar.gz
 ```
 
 installation Linux (in R):
 ```R
-	install.packages(repos=NULL,"GrowingSOM_0.1.tar.gz")
+	install.packages(repos=NULL,"HDGSOM_0.1.2.tar.gz")
 ```
 
 installation Windows (in R):
 ```R
-	install.packages(repos=NULL, "C:/Users/hunzikal/Downloads/NetCoS_1.0.zip", type="binary")
+	install.packages(repos=NULL, "HDGSOM_0.1.2.tar.gz", type="binary")
 ```
 
 ## Legal
