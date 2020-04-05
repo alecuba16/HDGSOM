@@ -6,7 +6,7 @@ Date: 2018-05-15
 Authors@R: c(person("Hunziker", "Alex", role = c("aut", "cre"), email = "alexhunziker@sunrise.ch"),person("alecuba16","Alejandro",  role = "ctb"))
 Author: Hunziker Alex [aut, cre],
         Alejandro Blanco Martinez [ctb]
-Maintainer: Alejandro Blanco Martinez <alecuba16@gmail.com>
+Maintainer: Alejandro Blanco Martinez <alecuba.16@googlemail.com>
 Description: A High Dimensionality growing self-organizing map (GrowingSOM, GSOM) is a growing variant of the popular self-organizing map (SOM).
     A growing self-organizing map is a type of artificial neural network (ANN) that is trained using unsupervised learning to produce a 
     two-dimensional representation of the input space of the training samples, called a map. This HDGSOM have been improved,
